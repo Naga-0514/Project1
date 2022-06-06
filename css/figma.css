@@ -1,0 +1,408 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    height: 900px;
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+#container {
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    background: #FFFFFF;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+
+}
+
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 90px 140px;
+    gap: 10px;
+    width: 720px;
+    height: 900px;
+}
+
+#Rectangle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 140px;
+    top: 90px;
+
+}
+
+#Rectangle button {
+    height: 100%;
+    width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    /* Primary */
+    color: #4F46E5;
+    border: none;
+    padding: 15px;
+    background: #EEF2FF;
+    border-radius: 12px;
+    cursor: pointer;
+
+
+}
+
+
+#Rectangle button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.form-group input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 40px;
+    gap: 10px;
+    width: 440px;
+    height: 65px;
+    background: #F3F4F6;
+    border-radius: 8px;
+    border-style: none;
+}
+
+input[type=email] {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+input[type=password] {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #000000
+}
+
+label[for=email] {
+    width: 137px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+label[for=password] {
+    width: 205px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+label[for=forgotpassword] {
+    width: 134px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F46E5;
+}
+
+
+.remember {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    align-items: center;
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+
+#frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 440px;
+    height: 19px;
+}
+
+input[type=checkbox] {
+    width: 25px;
+    height: 25px;
+    background: #F3F4F6;
+    border-radius: 3px;
+}
+
+.frame2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 440px;
+    height: 65px;
+}
+
+input[type=text] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 40px;
+    gap: 10px;
+    width: 215px;
+    height: 65px;
+    background: #F3F4F6;
+    border-radius: 8px;
+
+}
+
+input[for=fname] {
+    width: 56px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+
+input[for=lname] {
+    width: 61px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+label[for=rememberme] {
+    height: 19px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.spacing {
+    width: 440px;
+    height: 55px;
+}
+
+h1 {
+    position: static;
+    height: 39px;
+    left: 140px;
+    top: 205px;
+    font-style: normal;
+    font-weight: 600 Semi Bold;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.firstp {
+    width: 440px;
+    height: 56px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    color: #4B5563;
+    padding-top: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 440px;
+    height: 372px;
+    left: 140px;
+    top: 355px;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 440px;
+    height: 94px;
+
+}
+
+.button button {
+    height: 19px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: 1px solid #4F46E5;
+    width: 440px;
+    height: 69px;
+
+    /* Primary */
+
+    background: #4F46E5;
+    box-shadow: 0px 30px 60px rgba(79, 70, 229, 0.15);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+
+}
+
+.button button:hover {
+    background: #FFFFFF;
+    color: #4F46E5;
+    transition: all 0.2s;
+
+}
+
+
+.lastp {
+    width: 440px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Muted */
+    color: #4B5563;
+}
+
+.lastpp {
+    width: 440px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    /* Muted */
+    color: #4B5563;
+}
+
+
+.right-side {
+    width: 720px;
+    height: 900px;
+    left: 720px;
+    padding-top: 170px;
+    background: linear-gradient(180deg, #3730A3 0%, #312E81 100%);
+}
+
+.image {
+    width: 755px;
+    height: 317px;
+    left: -12px;
+    top: 150px;
+
+}
+
+.end h5 {
+    padding-left: 50px;
+    padding-top: 100px;
+    width: 236px;
+    height: 28px;
+    left: 101px;
+    top: 564px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.end p {
+    padding-left: 50px;
+    height: 126px;
+    left: 101px;
+    top: 602px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    /* or 150% */
+    color: #FFFFFF;
+
+}
+
+@media (max-width: 768px) {
+    h1 {
+        top: 180px;
+        font-size: 28px;
+    }
+
+    input[type=text] {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .flex,
+    .form-group input {
+        display: block;
+        width: 100%;
+    }
+    .left-side {
+        width: 100%;
+        height: 100%;
+    }
+    .remember {
+        display: block;
+        width: 100%;
+        gap: 0px;
+    }
+
+}

@@ -1,0 +1,18 @@
+.bar {
+    background: #EEF2FF;
+    border-radius: 12px;   
+    width: 60px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #4F46E5;
+    text-align: center;
+    margin-bottom: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    /* image-rendering: auto; */
+} 
